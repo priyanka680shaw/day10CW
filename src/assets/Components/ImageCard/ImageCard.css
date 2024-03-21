@@ -1,0 +1,56 @@
+.imgCardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.imgCardinnerContainer{
+    border-radius: 10px;
+}
+
+
+/* home page */
+.DisplayImageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(128, 138, 138);
+}
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 300px;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(121, 138, 154);
+}
+
+.button>button{
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    background-image: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+
+}
+
+.button>button:hover{
+    color: white;
+    background-image: linear-gradient(-45deg, #FFA63D, #45b456, #338AFF, #3CF0C5);
+}
